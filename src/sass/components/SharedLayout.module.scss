@@ -4,32 +4,57 @@
   color: var(--font-primary);
   background-color: var(--bg-primary);
   min-height: 100vh;
+  padding: 0;
+  margin: 0 auto;
 }
 
 .container {
   min-width: 320px;
   max-width: 1200px;
+  padding-inline: 15px;
+  margin-inline: auto;
 }
 
 .header {
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
-.top {
-  padding: 15px;
-}
-
-.logo {
-  width: 80px;
-  height: 80px;
-  background-color: pink;
-}
-
-.title {
+.header__title {
   font-weight: 700;
   font-size: 60px;
   line-height: 1.5;
   letter-spacing: 0.09em;
   text-align: center;
+}
+
+.logo {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.logo__image {
+  width: 80px;
+  height: 80px;
+  background-color: pink;
+}
+
+.nav {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav__link {
+  font-weight: 500px;
+  font-size: 24px;
+  line-height: 1.5;
+  text-decoration: none;
 }
