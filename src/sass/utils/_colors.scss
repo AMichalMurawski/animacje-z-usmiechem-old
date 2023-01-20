@@ -1,0 +1,9 @@
+:root {
+  --font-primary: black;
+  --bg-primary: rgb(225, 217, 203);
+}
+
+[data-theme='dark'] {
+  --font-primary: white;
+  --bg-primary: black;
+}
